@@ -1,10 +1,11 @@
 public class Solution {
     public bool RepeatedSubstringPattern(string s) {
-        String substring = "";
-        for(int i = 0; i < s.Length / 2; i++)
+        int n = s.Length / 2;
+        System.Text.StringBuilder substring = new StringBuilder("", n);
+        for(int i = 0; i < n; i++)
         {
-            substring += s[i];
-            if( s.Replace(substring, "") == "" ) return true;
+            substring.Append( s[i] );
+            if( s.Replace(substring.ToString(), "") == "" ) return true;
         }
 
         return false;
