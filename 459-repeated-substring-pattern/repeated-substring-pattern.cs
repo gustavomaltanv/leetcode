@@ -1,7 +1,7 @@
 public class Solution {
     public bool RepeatedSubstringPattern(string s) {
         String substring = "";
-        for(int i = 0; i < s.Length-1; i++)
+        for(int i = 0; i < s.Length / 2; i++)
         {
             substring += s[i];
             if( s.Replace(substring, "") == "" ) return true;
