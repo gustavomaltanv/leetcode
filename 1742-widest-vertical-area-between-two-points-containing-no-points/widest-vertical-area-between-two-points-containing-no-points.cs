@@ -9,11 +9,11 @@ public class Solution {
         }
 
         Array.Sort(pointsX);
+
         int maxWidth = 0;
         for(int i = 1; i < pointsX.Length; i++)
         {
-            int width = pointsX[i] - pointsX[i-1];
-            if (width > maxWidth) maxWidth = width;
+            if (Math.Abs(pointsX[i] - pointsX[i-1]) > maxWidth) maxWidth = Math.Abs(pointsX[i] - pointsX[i-1]);
         }
 
         return maxWidth;
