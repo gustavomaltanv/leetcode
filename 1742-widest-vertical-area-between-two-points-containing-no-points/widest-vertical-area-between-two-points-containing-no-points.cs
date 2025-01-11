@@ -1,6 +1,5 @@
 public class Solution {
     public int MaxWidthOfVerticalArea(int[][] points) {
-        
         int[] pointsX = new int[points.Length];
         
         for(int i = 0; i < points.Length; i++)
