@@ -1,26 +1,12 @@
 public class Solution {
     public string ReverseStr(string s, int k) {
-        string answer = "";
-        for(int i = 0; i*k < s.Length; i++) 
+        int i = 0;
+        char[] answer = s.ToCharArray();
+        while(i < answer.Length ) 
         {
-            if(i % 2 == 0)
-            {
-                int length = Math.Min(k, s.Length - i * k);
-                answer += ReverseSubstring(s.Substring(i*k , length)); 
-            }
-            if(i % 2 == 1)
-            {
-                int length = Math.Min(k, s.Length - i * k);
-                answer += s.Substring(i*k, length);
-            }
+          Array.Reverse(answer, i, Math.Min( k, s.Length - i ));
+          i = i + k * 2;
         }
-        return answer;
-        
-    }
-
-    public string ReverseSubstring(string s) {
-        char[] reverse = s.ToCharArray();
-        Array.Reverse(reverse);
-        return new string(reverse);
+        return new string(answer);   
     }
 }
