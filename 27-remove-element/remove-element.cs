@@ -1,14 +1,14 @@
 public class Solution {
     public int RemoveElement(int[] nums, int val) {
-        int last = 0;
-        for(int actual = 0; actual < nums.Length; actual++)
+        int j = 0;
+        for(int i = 0; i < nums.Length; i++)
         {
-            if(nums[actual] != val)
+            if(nums[i] != val)
             {
-                nums[last] = nums[actual];
-                last++;
+                nums[j] = nums[i];
+                j++;
             }
         }
-        return last;
-   }
+        return j;
+    }
 }
