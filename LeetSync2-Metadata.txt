@@ -3,3 +3,4 @@
 27-remove-element|Easy|1737514800000
 917-reverse-only-letters|Easy|1737601200000
 1869-longer-contiguous-segments-of-ones-than-zeros|Easy|1737687600000
+2562-find-the-array-concatenation-value|Easy|1737774000000
