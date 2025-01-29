@@ -6,3 +6,4 @@
 2562-find-the-array-concatenation-value|Easy|1737774000000
 2068-check-whether-two-strings-are-almost-equivalent|Easy|1737860400000
 3136-valid-word|Easy|1737946800000
+1848-minimum-distance-to-the-target-element|Easy|1738033200000
