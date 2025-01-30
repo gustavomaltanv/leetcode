@@ -1,29 +1,40 @@
 public class MinStack {
-    List<int> stack;
-    int actual = 0;
+    private Stack<int> stack;
+    private Stack<int> minStack;
 
     public MinStack() {
-        stack = new List<int>();
+        stack = new Stack<int>();
+        minStack = new Stack<int>();
     }
     
     public void Push(int val) {
-        stack.Add(val);
-        actual++;
+        stack.Push(val);
+        if (minStack.Count == 0 || val <= minStack.Peek()) {
+            minStack.Push(val);
+        }
     }
     
     public void Pop() {
-        if(actual > 0) {
-            actual--;
-            stack.RemoveAt(actual);
+        if (stack.Count > 0) {
+            if (stack.Peek() == minStack.Peek()) {
+                minStack.Pop();
+            }
+            stack.Pop();
         }
     }
     
     public int Top() {
-        return stack[actual-1];
+        if (stack.Count > 0) {
+            return stack.Peek();
+        }
+        throw new InvalidOperationException();
     }
     
     public int GetMin() {
-        return stack.Min();
+        if (minStack.Count > 0) {
+            return minStack.Peek();
+        }
+        throw new InvalidOperationException();
     }
 }
 
