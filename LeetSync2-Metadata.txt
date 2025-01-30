@@ -9,3 +9,4 @@
 1848-minimum-distance-to-the-target-element|Easy|1738033200000
 1528-shuffle-string|Easy|1738119600000
 682-baseball-game|Easy|1738119600000
+155-min-stack|Medium|1738206000000
