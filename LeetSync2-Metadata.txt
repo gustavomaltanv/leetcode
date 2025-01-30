@@ -8,3 +8,4 @@
 3136-valid-word|Easy|1737946800000
 1848-minimum-distance-to-the-target-element|Easy|1738033200000
 1528-shuffle-string|Easy|1738119600000
+682-baseball-game|Easy|1738119600000
