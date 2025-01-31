@@ -13,3 +13,4 @@
 20-valid-parentheses|Easy|1738206000000
 206-reverse-linked-list|Easy|1738206000000
 21-merge-two-sorted-lists|Easy|1738206000000
+707-design-linked-list|Medium|1738292400000
