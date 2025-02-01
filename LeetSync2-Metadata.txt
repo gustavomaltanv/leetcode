@@ -17,3 +17,4 @@
 1472-design-browser-history|Medium|1738292400000
 225-implement-stack-using-queues|Easy|1738378800000
 1700-number-of-students-unable-to-eat-lunch|Easy|1738378800000
+509-fibonacci-number|Easy|1738378800000
