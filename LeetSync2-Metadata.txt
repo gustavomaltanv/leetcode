@@ -19,3 +19,4 @@
 1700-number-of-students-unable-to-eat-lunch|Easy|1738378800000
 509-fibonacci-number|Easy|1738378800000
 912-sort-an-array|Medium|1738465200000
+23-merge-k-sorted-lists|Hard|1738465200000
