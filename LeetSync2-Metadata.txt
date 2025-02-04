@@ -21,3 +21,4 @@
 912-sort-an-array|Medium|1738465200000
 23-merge-k-sorted-lists|Hard|1738465200000
 215-kth-largest-element-in-an-array|Medium|1738465200000
+75-sort-colors|Medium|1738551600000
