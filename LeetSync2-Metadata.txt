@@ -23,3 +23,4 @@
 215-kth-largest-element-in-an-array|Medium|1738465200000
 75-sort-colors|Medium|1738551600000
 704-binary-search|Easy|1738638000000
+74-search-a-2d-matrix|Medium|1738724400000
