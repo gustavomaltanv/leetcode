@@ -25,3 +25,4 @@
 704-binary-search|Easy|1738638000000
 74-search-a-2d-matrix|Medium|1738724400000
 700-search-in-a-binary-search-tree|Easy|1738897200000
+235-lowest-common-ancestor-of-a-binary-search-tree|Medium|1738897200000
