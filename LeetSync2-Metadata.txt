@@ -27,3 +27,4 @@
 700-search-in-a-binary-search-tree|Easy|1738897200000
 235-lowest-common-ancestor-of-a-binary-search-tree|Medium|1738897200000
 701-insert-into-a-binary-search-tree|Medium|1739070000000
+450-delete-node-in-a-bst|Medium|1739070000000
