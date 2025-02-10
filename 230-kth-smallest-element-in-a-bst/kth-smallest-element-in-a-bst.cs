@@ -12,21 +12,21 @@
  * }
  */
 public class Solution {
-    int[] res = new int[10000];
-    int index = 0;
+    int i = 0, result;
     
     public int KthSmallest(TreeNode root, int k) {
-        InOrder(root);
-
-        return res[k-1];
+        InOrder(root, k);
+        return result; 
     }
 
-    private void InOrder(TreeNode current) {
-        if(current == null) return;
-        
-        InOrder(current.left);
-        res[index] = current.val;
-        index++;
-        InOrder(current.right);
+    private void InOrder(TreeNode current, int k) {
+        if(current is null) return;
+
+        InOrder(current.left, k);
+        i++;
+        if(i == k) {
+            result = current.val;
+        }
+        InOrder(current.right, k);
     }
 }
