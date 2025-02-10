@@ -29,3 +29,4 @@
 701-insert-into-a-binary-search-tree|Medium|1739070000000
 450-delete-node-in-a-bst|Medium|1739070000000
 94-binary-tree-inorder-traversal|Easy|1739156400000
+230-kth-smallest-element-in-a-bst|Medium|1739156400000
