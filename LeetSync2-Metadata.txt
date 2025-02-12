@@ -30,3 +30,4 @@
 450-delete-node-in-a-bst|Medium|1739070000000
 94-binary-tree-inorder-traversal|Easy|1739156400000
 230-kth-smallest-element-in-a-bst|Medium|1739156400000
+105-construct-binary-tree-from-preorder-and-inorder-traversal|Medium|1739242800000
