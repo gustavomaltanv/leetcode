@@ -32,3 +32,4 @@
 230-kth-smallest-element-in-a-bst|Medium|1739156400000
 105-construct-binary-tree-from-preorder-and-inorder-traversal|Medium|1739242800000
 1154-day-of-the-year|Easy|1739329200000
+2280-minimum-lines-to-represent-a-line-chart|Medium|1739415600000
