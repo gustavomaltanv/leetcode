@@ -34,3 +34,4 @@
 1154-day-of-the-year|Easy|1739329200000
 2280-minimum-lines-to-represent-a-line-chart|Medium|1739415600000
 873-length-of-longest-fibonacci-subsequence|Medium|1739502000000
+893-groups-of-special-equivalent-strings|Medium|1739588400000
