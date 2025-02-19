@@ -37,3 +37,4 @@
 893-groups-of-special-equivalent-strings|Medium|1739588400000
 1587-bank-account-summary-ii|Easy|1739674800000
 1884-egg-drop-with-2-eggs-and-n-floors|Medium|1739761200000
+1252-cells-with-odd-values-in-a-matrix|Easy|1739847600000
