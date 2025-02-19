@@ -2,21 +2,13 @@ public class Solution
 {
     public int OddCells(int m, int n, int[][] indices)
     {
-        int[,] matrix = new int[m, n];
+        int[] rowIncrements = new int[m];
+        int[] colIncrements = new int[n];
 
         foreach (var index in indices)
         {
-            int row = index[0];
-            int col = index[1];
-
-            for (int i = 0; i < n; i++)
-            {
-                matrix[row, i]++;
-            }
-            for (int i = 0; i < m; i++)
-            {
-                matrix[i, col]++;
-            }
+            rowIncrements[index[0]]++;
+            colIncrements[index[1]]++;
         }
 
         int oddCount = 0;
@@ -25,13 +17,13 @@ public class Solution
         {
             for (int j = 0; j < n; j++)
             {
-                if (matrix[i, j] % 2 != 0)
+                int cellValue = rowIncrements[i] + colIncrements[j];
+                if (cellValue % 2 != 0)
                 {
                     oddCount++;
                 }
             }
         }
-
         return oddCount;
     }
 }
