@@ -11,19 +11,26 @@ public class Solution
             colIncrements[index[1]]++;
         }
 
-        int oddCount = 0;
-
+        int oddRows = 0;
+        int oddCols = 0;
         for (int i = 0; i < m; i++)
         {
-            for (int j = 0; j < n; j++)
+            if (rowIncrements[i] % 2 != 0)
             {
-                int cellValue = rowIncrements[i] + colIncrements[j];
-                if (cellValue % 2 != 0)
-                {
-                    oddCount++;
-                }
+                oddRows++;
             }
         }
-        return oddCount;
+        for (int j = 0; j < n; j++)
+        {
+            if (colIncrements[j] % 2 != 0)
+            {
+                oddCols++;
+            }
+        }
+
+        int evenRows = m - oddRows;
+        int evenCols = n - oddCols;
+
+        return (oddRows * evenCols) + (oddCols * evenRows);
     }
 }
