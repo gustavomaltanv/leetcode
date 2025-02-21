@@ -40,3 +40,4 @@
 1252-cells-with-odd-values-in-a-matrix|Easy|1739847600000
 455-assign-cookies|Easy|1739934000000
 2124-check-if-all-as-appears-before-all-bs|Easy|1740020400000
+1000-minimum-cost-to-merge-stones|Hard|1740106800000
