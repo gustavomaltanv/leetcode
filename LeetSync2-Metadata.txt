@@ -42,3 +42,4 @@
 2124-check-if-all-as-appears-before-all-bs|Easy|1740020400000
 1000-minimum-cost-to-merge-stones|Hard|1740106800000
 1598-crawler-log-folder|Easy|1740193200000
+1562-find-latest-group-of-size-m|Medium|1740279600000
