@@ -43,3 +43,4 @@
 1000-minimum-cost-to-merge-stones|Hard|1740106800000
 1598-crawler-log-folder|Easy|1740193200000
 1562-find-latest-group-of-size-m|Medium|1740279600000
+953-verifying-an-alien-dictionary|Easy|1740625200000
