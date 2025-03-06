@@ -47,3 +47,4 @@
 1436-destination-city|Easy|1740798000000
 1019-next-greater-node-in-linked-list|Medium|1740884400000
 1143-longest-common-subsequence|Medium|1740970800000
+303-range-sum-query-immutable|Easy|1741143600000
