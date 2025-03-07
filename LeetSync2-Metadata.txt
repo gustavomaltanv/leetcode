@@ -48,3 +48,4 @@
 1019-next-greater-node-in-linked-list|Medium|1740884400000
 1143-longest-common-subsequence|Medium|1740970800000
 303-range-sum-query-immutable|Easy|1741143600000
+3274-check-if-two-chessboard-squares-have-the-same-color|Easy|1741230000000
