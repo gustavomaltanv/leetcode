@@ -49,3 +49,4 @@
 1143-longest-common-subsequence|Medium|1740970800000
 303-range-sum-query-immutable|Easy|1741143600000
 3274-check-if-two-chessboard-squares-have-the-same-color|Easy|1741230000000
+3046-split-the-array|Easy|1741402800000
