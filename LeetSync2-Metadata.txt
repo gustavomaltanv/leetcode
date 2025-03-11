@@ -53,3 +53,4 @@
 2200-find-all-k-distant-indices-in-an-array|Easy|1741489200000
 102-binary-tree-level-order-traversal|Medium|1741575600000
 112-path-sum|Easy|1741575600000
+78-subsets|Medium|1741662000000
