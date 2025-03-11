@@ -6,12 +6,15 @@ public class Solution {
     }
 
     public void Combinations(int[] candidates, int targetSum, int index, List<int> current, IList<IList<int>> result) {
-        if(current.Sum(x => Convert.ToInt32(x)) > targetSum) return;
-        if(current.Sum(x => Convert.ToInt32(x)) == targetSum) result.Add(new List<int>(current));
+        if(targetSum < 0 ) return;
+        if(targetSum == 0 ) {
+            result.Add(new List<int>(current));
+            return;
+        } 
 
         for(int i = index; i < candidates.Length; i++) {
             current.Add(candidates[i]);
-            Combinations(candidates, targetSum, i, current, result);
+            Combinations(candidates, targetSum - candidates[i], i, current, result);
             current.RemoveAt(current.Count - 1);
         }
     }
