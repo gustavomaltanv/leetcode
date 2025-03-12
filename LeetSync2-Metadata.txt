@@ -59,3 +59,4 @@
 1046-last-stone-weight|Easy|1741662000000
 973-k-closest-points-to-origin|Medium|1741662000000
 1-two-sum|Easy|1741748400000
+146-lru-cache|Medium|1741748400000
