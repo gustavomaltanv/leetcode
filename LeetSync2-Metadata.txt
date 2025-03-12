@@ -56,3 +56,4 @@
 78-subsets|Medium|1741662000000
 39-combination-sum|Medium|1741662000000
 703-kth-largest-element-in-a-stream|Easy|1741662000000
+1046-last-stone-weight|Easy|1741662000000
