@@ -1,34 +1,30 @@
 public class Solution {
-    int rows;
-    int cols;
-    (int, int)[] directions = new (int, int)[] { (0,1), (1,1), (1,0), (1,-1), (0,-1), (-1,-1), (-1,0), (-1,1) };
+    int n;
+    int[] dr = {-1, -1, -1, 0,  0, 1, 1,  1};
+    int[] dc = {-1,  0,  1, -1, 1, -1, 0, 1};
 
     public int ShortestPathBinaryMatrix(int[][] grid) {
-        rows = grid.Length;
-        cols = grid[0].Length;
-        if(grid[0][0] == 1) return -1;
+        n = grid.Length;
+        if(grid[0][0] == 1 || grid[n-1][n-1] == 1) return -1;
+
         HashSet<(int,int)> visited = new HashSet<(int, int)>();
-        Queue<(int,int)> queue = new Queue<(int,int)>();
-        queue.Enqueue((0,0));
-        visited.Add((0,0));
+        Queue<(int, int, int)> queue = new Queue<(int, int, int)>();
+        queue.Enqueue((0,0,1));
+        grid[0][0] = 1;
         int path = 0;
         while(queue.Count > 0) {
-            path++;
-            int size = queue.Count;
-            for(var i = 0; i < size; i++) {
-                (int r, int c) = queue.Dequeue();
-                if(r == rows-1 && c == cols-1) return path;
+            var (r, c, pathLength) = queue.Dequeue();
+            
+            if(r == n-1 && c == n-1) return pathLength;
 
-                foreach(var (dr,dc) in directions) {
-                    int nr = r + dr, nc = c + dc;
-                    if (nr >= 0 && nc >= 0 
-                    && nr < rows && nc < cols 
-                    && grid[nr][nc] == 0 
-                    && !visited.Contains((nr, nc))) 
-                    {
-                        queue.Enqueue((nr, nc));
-                        visited.Add((nr, nc));
-                    }
+            for(int i = 0; i < 8; i++)
+            {
+                int nr = r + dr[i];
+                int nc = c + dc[i];
+                if(nr >= 0 && nc >= 0 && nr < n && nc < n && grid[nr][nc] == 0)
+                {
+                    queue.Enqueue((nr, nc, pathLength + 1));
+                    grid[nr][nc] = 1;
                 }
             }
         }
