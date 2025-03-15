@@ -63,3 +63,4 @@
 200-number-of-islands|Medium|1741834800000
 695-max-area-of-island|Medium|1741834800000
 1091-shortest-path-in-binary-matrix|Medium|1741834800000
+1608-special-array-with-x-elements-greater-than-or-equal-x|Easy|1741921200000
