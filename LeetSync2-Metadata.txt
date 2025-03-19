@@ -65,3 +65,4 @@
 1091-shortest-path-in-binary-matrix|Medium|1741834800000
 1608-special-array-with-x-elements-greater-than-or-equal-x|Easy|1741921200000
 1640-check-array-formation-through-concatenation|Easy|1742094000000
+70-climbing-stairs|Easy|1742266800000
