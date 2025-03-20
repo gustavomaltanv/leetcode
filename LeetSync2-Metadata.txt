@@ -67,3 +67,4 @@
 1640-check-array-formation-through-concatenation|Easy|1742094000000
 70-climbing-stairs|Easy|1742266800000
 198-house-robber|Medium|1742266800000
+62-unique-paths|Medium|1742439600000
