@@ -69,3 +69,4 @@
 198-house-robber|Medium|1742266800000
 62-unique-paths|Medium|1742439600000
 63-unique-paths-ii|Medium|1742439600000
+191-number-of-1-bits|Easy|1742439600000
